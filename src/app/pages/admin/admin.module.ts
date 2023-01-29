@@ -8,6 +8,9 @@ import { ComponentAdminComponent } from './component-admin/component-admin.compo
   declarations: [
     ComponentAdminComponent
   ],
+  exports:[
+    ComponentAdminComponent
+  ],
   imports: [
     CommonModule
   ]

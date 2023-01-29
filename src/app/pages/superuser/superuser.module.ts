@@ -8,6 +8,9 @@ import { ComponentSuperComponent } from './component-super/component-super.compo
   declarations: [
     ComponentSuperComponent
   ],
+  exports:[
+    ComponentSuperComponent
+  ],
   imports: [
     CommonModule
   ]

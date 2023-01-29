@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 35%;
+  padding: 10px;
+  margin: auto;
+  justify-content: center;
+
+  background-color: #303030;
+}
+
+button {
+  background-color: rgb(117, 217, 224);
+  border: 2px solid red;
+  padding: 5px;
+  border-radius: 5px;
+
+  color: darkgreen;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.container__client {
+  margin: auto;
+}
+
+.container__admin {
+  margin: auto;
+}
+
+.container__superuser {
+  margin: auto;
+}

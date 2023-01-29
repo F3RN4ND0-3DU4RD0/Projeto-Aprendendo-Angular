@@ -8,6 +8,9 @@ import { ComponentClientComponent } from './component-client/component-client.co
   declarations: [
     ComponentClientComponent
   ],
+  exports:[
+    ComponentClientComponent
+  ],
   imports: [
     CommonModule
   ]
