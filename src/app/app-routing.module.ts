@@ -3,9 +3,9 @@ import { RouterModule, Routes } from '@angular/router';
 
 //Importações das rotas do site
 import { IndexComponent } from './pages/index/index.component';
-import { ComponentClientComponent } from './pages/client/component-client/component-client.component';
-import { ComponentAdminComponent } from './pages/admin/component-admin/component-admin.component';
-import { ComponentSuperComponent } from './pages/superuser/component-super/component-super.component';
+import { ComponentClientComponent } from './pages/component-client/component-client.component';
+import { ComponentSuperComponent } from './pages/component-super/component-super.component';
+import { ComponentAdminComponent } from './pages/component-admin/component-admin.component';
 
 const routes: Routes = [
   {path: '', component: IndexComponent, pathMatch:'full'},

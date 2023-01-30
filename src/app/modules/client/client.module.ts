@@ -1,18 +1,21 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ComponentClientComponent } from './component-client/component-client.component';
+import { ComponentClientComponent } from '../../pages/component-client/component-client.component';
+
 
 
 
 @NgModule({
   declarations: [
-    ComponentClientComponent
+    ComponentClientComponent,
+
   ],
   exports:[
     ComponentClientComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+
   ]
 })
 export class ClientModule { }
